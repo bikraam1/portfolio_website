@@ -1,0 +1,29 @@
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav1 .logo {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.nav1 .menu {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+}
+
+.nav1 .menu a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav1 .menu a:hover {
+  color: #0077ff;
+}
